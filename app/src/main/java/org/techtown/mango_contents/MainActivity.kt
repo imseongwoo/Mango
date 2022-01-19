@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         )
 
 
-        val recyclerView = findViewById<RecyclerView>(R.id.rv)
+        val recyclerView = findViewById<RecyclerView>(R.id.rv)      // 메인 리사이클러뷰
         val rvAdapter = RVAdapter(baseContext,items)
         recyclerView.adapter = rvAdapter
 
